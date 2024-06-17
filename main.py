@@ -42,7 +42,7 @@ async def main():
         ui.run_javascript(
             f'playHls("video_label", "video/test.m3u8");')
 
-    ui.button('PlayVideo', on_click=play_video)
+    ui.button('Play', on_click=play_video)
 
 ui.run()
 
